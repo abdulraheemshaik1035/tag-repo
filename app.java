@@ -8,7 +8,7 @@ public class Main {
         
         // 1. Ask the user for their name
         System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
+        String name = scanner.nextLine(80);
         System.out.println("Hello, " + name + "!\n");
 
         // 2. Read two numbers for calculations
