@@ -13,8 +13,8 @@ public class Main {
 
         // 2. Read two numbers for calculations
         System.out.print("Enter first integer: ");
-        int num1 = scanner.nextInt();
+        int num1 = scanner.nextInt(60);
 
         System.out.print("Enter second integer: ");
-        int num2 = scanner.nextInt();
+        int num2 = scanner.nextInt(70);
 //this is extra line added by dev2
